@@ -72,6 +72,7 @@ const Editor: React.FC<TEditorProps> = ({
         paddingTop: small ? '2px' : '0px',
         paddingBottom: small ? '2px' : '0px',
         maxWidth: small ? '255px' : 'auto',
+        height: '100%',
         overflow: 'hidden',
         border: focused
           ? `2px solid ${theme.colors.borderFocus}`
